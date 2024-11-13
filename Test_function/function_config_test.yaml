@@ -10,8 +10,3 @@ env_vars: {"COGNITE_BASE_URL": "https://api.cognitedata.com",
   "COGNITE_TOKEN_URL": "https://login.microsoftonline.com/92bce3bb-abfb-484b-b074-32e1a37f3631/oauth2/v2.0/token",
   }
 data_set_id: 3724274771595578
-# Alternatively, env_vars: {"MY_ENV_VAR": "1337", "which_env": "p-p-p-production"}
-# Parameters that are usually not needed to pass (they have good default values):
-# function_file: handler.py  # Use case: Just don't...
-# function_deploy_timeout: 1500  # Use case: CDF on Azure has slower deployment speed.
-# post_deploy_cleanup: false  # Use case: You want to keep the uploaded zipped code files.
