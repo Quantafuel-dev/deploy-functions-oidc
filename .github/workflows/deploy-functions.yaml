@@ -8,8 +8,8 @@ jobs:
   generate-matrix:
     uses: "./.github/workflows/generate-matrix.yaml"
     with:
-      deploy_folders: -"Test_function"
-      trigger_deploy_all_folders: -"common" -".github"
+      deploy_folders: "Test_function"
+      trigger_deploy_all_folders: "common, .github"
   deploy:
     needs: generate-matrix
     name: Deploy to Cognite Functions
